@@ -80,7 +80,7 @@ teamMembers.forEach(function (member) {
 const teamContainer = document.getElementById('team-container');
 
 teamMembers.forEach(function (member) {
-  let memberDiv = document.createElement('p');
+  let memberDiv = document.createElement('div');
 
   memberDiv.innerHTML =
     'Nome: ' +
