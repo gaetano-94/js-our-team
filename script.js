@@ -53,3 +53,25 @@ let teamMembers = [
     foto: 'barbara-ramos-graphic-designer.jpg',
   },
 ];
+
+//MILESTONE 1
+teamMembers.forEach(function (member) {
+  console.log(
+    'Nome:' +
+      ' ' +
+      ' ' +
+      member.nome +
+      ' ' +
+      ' ' +
+      'Ruolo:' +
+      ' ' +
+      ' ' +
+      member.ruolo +
+      ' ' +
+      ' ' +
+      'Foto:' +
+      ' ' +
+      ' ' +
+      member.foto
+  );
+});
