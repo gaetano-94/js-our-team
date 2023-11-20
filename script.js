@@ -19,3 +19,37 @@ Trasformare la stringa foto in una immagine effettiva
 BONUS 2:
 Organizzare i singoli membri in card/schede
 */
+
+//MILESTONE 0
+let teamMembers = [
+  {
+    nome: 'Wayne Barnett',
+    ruolo: 'Founder & CEO',
+    foto: '',
+  },
+  {
+    nome: 'Angela Caroll',
+    ruolo: 'Chief Editor',
+    foto: '',
+  },
+  {
+    nome: 'Walter Gordon',
+    ruolo: 'Office Manager',
+    foto: '',
+  },
+  {
+    nome: 'Angela Lopez',
+    ruolo: 'Social Media Manager',
+    foto: '',
+  },
+  {
+    nome: 'Scott Estrada',
+    ruolo: 'Developer',
+    foto: '',
+  },
+  {
+    nome: 'Barbara Ramos',
+    ruolo: 'Graphic Designer',
+    foto: '',
+  },
+];
