@@ -75,3 +75,22 @@ teamMembers.forEach(function (member) {
       member.foto
   );
 });
+
+//MILESTONE 2
+const teamContainer = document.getElementById('team-container');
+
+teamMembers.forEach(function (member) {
+  let memberDiv = document.createElement('p');
+
+  memberDiv.innerHTML =
+    'Nome: ' +
+    member.nome +
+    ' ' +
+    'Ruolo: ' +
+    member.ruolo +
+    ' ' +
+    'Foto: ' +
+    member.foto;
+
+  teamContainer.appendChild(memberDiv);
+});
